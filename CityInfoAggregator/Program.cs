@@ -2,7 +2,7 @@
 {
     static async Task Main()
     {
-        var weatherService = new WeatherService("6bb7d7fb8cfdf02533cfafb723985432");
+        var weatherService = new WeatherService("KEY");
 
         var countryService = new CountryService();
         var cityInfoService = new CityInfoService(weatherService, countryService);
