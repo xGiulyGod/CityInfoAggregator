@@ -33,3 +33,29 @@ This project was created to practice:
 
 ## 📁 Project Structure
 
+- CityInfoAggregator
+- ├── Aggregator
+- │ └── CityInfoAggregator.cs
+- ├── Models
+- │ └── WeatherResponse.cs
+- ├── Services
+- │ └── WeatherService.cs
+- ├── Program.cs
+- ├── README.md
+- └── .gitignore
+
+
+---
+
+## 🔑 API Configuration
+
+This project uses the **OpenWeather API**.
+
+⚠️ For security reasons, the API key is **not hardcoded** in the source code.
+
+You must set your API key as an **environment variable**.
+
+### Windows (PowerShell)
+
+```powershell
+setx OPENWEATHER_API_KEY "your_api_key_here"
